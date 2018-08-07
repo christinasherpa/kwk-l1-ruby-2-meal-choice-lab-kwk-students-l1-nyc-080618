@@ -4,8 +4,11 @@ def snacks(food="Cheetos")
 end
  snacks
  
- def breakfast(food="Scrambles eggs")
-   puts ""
+def breakfast(food="Scrambles eggs")
+   puts "Morning is the best time for #{food} ."
+end
+
+
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
 
