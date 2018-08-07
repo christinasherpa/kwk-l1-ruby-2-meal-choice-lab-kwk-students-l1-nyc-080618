@@ -10,6 +10,17 @@ end
 
 breakfast("scrambled eggs")
 
+def lunch(food)
+  puts "Having #{food} for Lunch is the best."
+end
+
+lunch("Pizza")
+
+def dinner(food)
+  puts "I like to have #{food} for Dinner."
+end
+
+dinner("Salad")
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
